@@ -5,6 +5,6 @@ resource "aws_instance" "shourya-instance" {
     count=1
 
     tags = {
-        Name = "shourya-vm"
+        Name = "shourya-vm1"
     }
 }
